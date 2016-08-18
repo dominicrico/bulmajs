@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bulma: a modern CSS framework based on Flexbox</title>
+        <meta name="description" content="Bulma is a CSS framework based on Flexbox and built with Sass">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.1.2/css/bulma.min.css">
+    </head>
+    <body>
+
+        <section class="section">
+            <div class="container">
+                <h1 class="title">Menu</h1>
+                <h2 class="subtitle">A simple
+                    <strong>menu</strong>, for any type of vertical navigation</h2>
+
+                <hr>
+
+                <div class="columns">
+                    <div class="column is-3">
+                        <aside data-bulma="menu" data-options="single: true;" class="menu">
+                            <p class="menu-label">
+                                General
+                            </p>
+                            <ul class="menu-list">
+                                <li>
+                                    <a href="#">Dashboard</a>
+                                </li>
+                                <li>
+                                    <a href="#">Customers</a>
+                                </li>
+                            </ul>
+                            <p class="menu-label">
+                                Administration
+                            </p>
+                            <ul class="menu-list">
+                                <li>
+                                    <a href="#">Team Settings</a>
+                                </li>
+                                <li>
+                                    <a class="is-active" href="#">Manage Your Team</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Members</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Plugins</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Add a member</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Invitations</a>
+                                </li>
+                                <li>
+                                    <a href="#">Authentication</a>
+                                </li>
+                            </ul>
+                            <p class="menu-label">
+                                Transactions
+                            </p>
+                            <ul class="menu-list">
+                                <li>
+                                  <a class="is-active" href="#">Manage Your Team</a>
+                                  <ul>
+                                      <li>
+                                          <a href="#">Members</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">Plugins</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">Add a member</a>
+                                      </li>
+                                  </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Transfers</a>
+                                </li>
+                                <li>
+                                    <a href="#">Balance</a>
+                                </li>
+                            </ul>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="../build/bulma.js" type="text/javascript"></script>
+    </body>
+</html>

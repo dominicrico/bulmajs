@@ -1,7 +1,7 @@
 {
   "name": "bulmajs",
   "description": "JavaScript Library for the Bulma CSS Framework.",
-  "main": "index.js",
+  "main": "build/bulma.js",
   "authors": [
     "Dominic Rico Gómez <hello@coderocket.me>"
   ],
@@ -17,6 +17,10 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "src",
+    "package.json",
+    ".gitignore",
+    "Gruntfile.coffee"
   ]
 }

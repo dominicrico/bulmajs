@@ -26,8 +26,11 @@ module.exports = (grunt) ->
       options:
         separator: ';'
         stripBanners: true,
-        banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
-          '<%= grunt.template.today("yyyy-mm-dd") %> */',
+        banner: '/**\n* <%= pkg.name %> - version <%= pkg.version %> - ' +
+          '<%= grunt.template.today("dd-mm-yyyy") %>\n' +
+          '* <%= pkg.description %>\n' +
+          '* © <%= grunt.template.today("yyyy") %> <%= pkg.author %> \n' +
+          '*/\n\n',
       build:
         src: ['build/components/**/*.js']
         dest: 'build/bulma.js'
@@ -47,13 +50,13 @@ module.exports = (grunt) ->
   # Aliases
   grunt.registerTask 'build', [
     'clean:build'
-    'coffe:build'
+    'coffee:build'
     'concat:build'
     'uglify:build'
   ]
 
   grunt.registerTask 'default', [
     'clean:build'
-    'coffe:build'
+    'coffee:build'
     'concat:build'
   ]
