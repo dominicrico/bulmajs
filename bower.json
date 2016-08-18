@@ -1,0 +1,22 @@
+{
+  "name": "bulmajs",
+  "description": "JavaScript Library for the Bulma CSS Framework.",
+  "main": "index.js",
+  "authors": [
+    "Dominic Rico Gómez <hello@coderocket.me>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "bulma",
+    "bulma.io"
+  ],
+  "moduleType": [],
+  "homepage": "https://github.com/dominicrico",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

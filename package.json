@@ -1,0 +1,28 @@
+{
+  "name": "bulmajs",
+  "version": "0.0.1",
+  "description": "JavaScript Library for the Bulma CSS Framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominicrico/bulmajs.git"
+  },
+  "keywords": [
+    "bulma",
+    "bulma.io"
+  ],
+  "author": "Dominic Rico Gómez <hello@coderocket.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dominicrico/bulmajs/issues"
+  },
+  "homepage": "https://github.com/dominicrico/bulmajs#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0"
+  }
+}
