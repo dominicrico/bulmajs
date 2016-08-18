@@ -5,12 +5,6 @@
   "authors": [
     "Dominic Rico Gómez <hello@coderocket.me>"
   ],
-  "license": "MIT",
-  "keywords": [
-    "bulma",
-    "bulma.io"
-  ],
-  "homepage": "https://github.com/dominicrico",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -21,5 +15,11 @@
     "package.json",
     ".gitignore",
     "Gruntfile.coffee"
-  ]
+  ],
+  "license": "MIT",
+  "keywords": [
+    "bulma",
+    "bulma.io"
+  ],
+  "homepage": "https://github.com/dominicrico/bulmajs"
 }
